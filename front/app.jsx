@@ -1,8 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
+import MainWindow from "./components/main_window";
 
 const App = () => (
   <section className="app_container">
-    <p>Application starts here</p>
+    <MainWindow />
   </section>
 );
 
